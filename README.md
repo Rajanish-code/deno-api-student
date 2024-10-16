@@ -59,65 +59,6 @@ This will allow Deno to access the network and read files as needed. The server 
 
 
 
-4. API Endpoints
-The following API endpoints are available for managing students:
-
-Method	Endpoint	Description
-GET	/students	Get a list of all students
-GET	/students/
-Get details of a specific student by ID
-POST	/students	Add a new student
-PUT	/students/
-Update details of a student
-DELETE	/students/
-Delete a student
-Example Request
-
-
-To add a new student:
-
-Request (POST /students)
-
-json
-Copy code
-{
-  "name": "John Doe",
-  "age": 21,
-  "course": "Computer Science"
-}
-Response
-
-json
-Copy code
-{
-  "id": 1,
-  "name": "John Doe",
-  "age": 21,
-  "course": "Computer Science"
-}
-5. Project Structure
-The project is structured as follows:
-
-bash
-Copy code
-
-
-
-
-deno-api-student/
-│
-├── app.ts             # Entry point of the API
-├── controllers/
-│   └── studentController.ts  # Logic for handling student data
-├── models/
-│   └── studentModel.ts       # Student data model
-├── routes/
-│   └── studentRoutes.ts      # Routes for student endpoints
-└── data/
-    └── students.json         # Sample student data (for testing)
-
-
-
     
 6. Permissions
 Deno's permission model ensures that the API doesn't have access to anything it doesn't explicitly request. We use the following permissions:
