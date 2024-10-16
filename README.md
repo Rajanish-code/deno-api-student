@@ -44,14 +44,12 @@ Navigate into the project directory:
 
 
 
-bash
-Copy code
+
 cd deno-api-student
 3. Run the Student API
 To start the server, use the following command:
 
-bash
-Copy code
+
 deno run --allow-net --allow-read app.ts
 This will allow Deno to access the network and read files as needed. The server will run on http://localhost:8000.
 
@@ -72,3 +70,16 @@ Deno's permission model ensures that the API doesn't have access to anything it 
 7. Further Reading
 Deno Documentation
 Deno APIs
+
+
+
+
+
+Step 5: Deploy the Project
+
+1. Once the project is connected to Railway, it will automatically detect your Deno project.
+
+2. Under "Deploy Settings", Railway will attempt to detect your command. If it doesn’t, you can manually enter it:
+3.bash 
+4.write  deno run --allow-net --allow-read app.ts
+5. Click "Deploy".
