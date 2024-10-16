@@ -58,7 +58,7 @@ This will allow Deno to access the network and read files as needed. The server 
 
 
     
-6. Permissions
+4. Permissions
 Deno's permission model ensures that the API doesn't have access to anything it doesn't explicitly request. We use the following permissions:
 
 --allow-net: Allows the API to listen to network requests.
@@ -67,7 +67,7 @@ Deno's permission model ensures that the API doesn't have access to anything it 
 
 
 
-7. Further Reading
+5. Further Reading
 Deno Documentation
 Deno APIs
 
@@ -75,7 +75,7 @@ Deno APIs
 
 
 
-Step 5: Deploy the Project
+Step 6: Deploy the Project
 
 1. Once the project is connected to Railway, it will automatically detect your Deno project.
 
