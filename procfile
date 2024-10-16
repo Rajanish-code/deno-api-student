@@ -9,7 +9,7 @@ web: deno run --allow-net --allow-read server.ts
 Here:
 
 web is the process type (used for web services).
-deno run --allow-net --allow-read app.ts is the command that will start your Deno app, where:
+deno run --allow-net --allow-read server.ts is the command that will start your Deno app, where:
 --allow-net: Allows network access.
 --allow-read: Allows reading of files.
-app.ts: The main file that starts your Deno server.
+server.ts: The main file that starts your Deno server.
