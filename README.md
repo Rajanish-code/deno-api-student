@@ -81,5 +81,5 @@ Step 6: Deploy the Project
 
 2. Under "Deploy Settings", Railway will attempt to detect your command. If it doesn’t, you can manually enter it:
 3.bash 
-4.write  deno run --allow-net --allow-read app.ts
+4.write  deno run --allow-net --allow-read server.ts
 5. Click "Deploy".
